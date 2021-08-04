@@ -53,3 +53,7 @@ app/node_modules
 app/.svelte
 app/build
 app/functions
+
+### cypress
+cypress/screenshots
+cypress/videos
