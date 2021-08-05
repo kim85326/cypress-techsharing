@@ -23,5 +23,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           config: pageLoadTimeout=100000,video=false
-          start: npm run test:ci
+          start: npm start
           wait-on: "http://localhost:8080"
