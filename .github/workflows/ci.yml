@@ -24,4 +24,4 @@ jobs:
         with:
           config: pageLoadTimeout=100000,video=false
           start: npm run test:ci
-          wait-on: "http://localhost:3000"
+          wait-on: "http://localhost:8080"
