@@ -21,9 +21,8 @@ describe("Home page", () => {
     cy.url().should("include", "/groups");
   });
 
-  // cross origin error
-  it.skip("should go to cypress when click cypress link", () => {
+  it("should go to cypress when click cypress link", () => {
     cy.findByRole("link", { name: /visit cypress\.io/i }).click();
-    cy.url().should("eq", "https://cypress.io");
+    cy.url().should("eq", "https://www.cypress.io/");
   });
 });
